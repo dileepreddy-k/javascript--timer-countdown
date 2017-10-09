@@ -1,18 +1,16 @@
 
 $(document).ready(function(){
-  //console.log('window is loaded');
-
   // START: timer countdown - plugin
   (function( $, window, document, undefined){
     var timerCountdown = {
       // initializing plugin options
       // targetDate - set your final date
       defaults:{
-        targetDate : 'September 30 2017 23:59:59 GMT+0530',
-        daysClass : 'daysClass',
-        hoursClass : 'hoursClass',
-        minutesClass : 'minutesClass',
-        secondsClass : 'secondsClass'
+        targetDate : 'October 30 2017 23:59:59 GMT+0530',
+        daysClass : 'days',
+        hoursClass : 'hours',
+        minutesClass : 'min',
+        secondsClass : 'sec'
       },
       // init function
       init: function(elem,options){
